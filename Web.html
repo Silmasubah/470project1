@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care to call?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Login">Login</a></li>
+        <li><a href="#Location">Location</a></li>
+        <li><a href="#User">User</a></li>
+        <li><a href="#ContactUs">ContactUs</a></li>
+        <li><a href="#AboutUs">AboutUs</a></li>
+         </ul>
+        </nav>
+        <div class="picture">
+            <div class="element">
+                <img src="new car.jpg">
+                <img src="picture.jpg">
+                <img src="vector.jpg">
+        </div>
+        <diV  class="form-box">
+            <form class="input-field">
+                <input type="text" class="input-text"placeholder="Contact Number" required>
+               <input type="text" class="input-text"placeholder="From Where" required>
+               <input type="text" class="input-text"placeholder="To Where" required>
+                <button type="submit" class="submit-btn" onclick="myfunction()" >Pick A Rider</button>
+                
+             </form>
+        </diV>
+             
+        
+        <script>
+            function myfunction() {
+           var x = document.getElementsById("form-box");
+           for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+  }
+}
+
+        </script>
+</body>
+</html>
